@@ -1,0 +1,26 @@
+{
+  "name": "chinese-units-ts",
+  "version": "0.1.0",
+  "description": "TypeScript implementation of the ChineseUnits object",
+  "main": "./obj.js",
+  "scripts": {
+    "build": "tsc *.ts",
+    "pretest": "npm run build",
+    "test": "node tests/test1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pffy/chinese-units-ts.git"
+  },
+  "keywords": [
+    "chinese-units",
+    "chinese-numbers",
+    "mandarin-chinese"
+  ],
+  "author": "The Pffy Authors (https://pffy.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pffy/chinese-units-ts/issues"
+  },
+  "homepage": "https://github.com/pffy/chinese-units-ts#readme"
+}
